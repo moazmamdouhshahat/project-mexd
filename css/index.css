@@ -1,0 +1,647 @@
+.section1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.section1 .navbar {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: ;
+}
+
+.section1 .navbar a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.section1 .navbar .navbar-collapse {
+    width: 60%;
+    /* background-color: blue; */
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+.section1 .navbar .navbar-collapse .navbar-nav {
+    margin-left: 20%;
+
+}
+
+.section1 .navbar .navbar-brand {
+    margin-left: 80px;
+    font-size: 30px;
+}
+.section1 .navbar .dropdown-menu{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+.section1 .navbar .dropdown-menu .dropdown-item:hover{
+    background-color: rgb(219, 204, 197);
+}
+
+.section1 .home {
+    width: 100%;
+    height: 92.5%;
+    background-color: blue;
+    background-image: url(..//img/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation-name: changeBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+}
+ 
+ @keyframes changeBackground {
+    20% {
+        background-image: url(../img/portfolio/portfolio-6.jpg);
+    }
+
+    50% {
+        background-image: url(/img/portfolio/portfolio-4.jpg);
+    }
+
+    75% {
+        background-image: url(../img/portfolio/portfolio-5.jpg);
+    }
+
+} 
+
+/* start print */
+.section1 .home .print{
+    width: 60%;
+    height: 30%;
+    margin-top: 17%;
+    margin-left: 20%;
+ position: absolute;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.section1 .home .print h1{
+padding: 30px 0px  10px 0px;
+}
+.section1 .home .print p{
+font-size: 30px;
+color: rgba(0, 0, 0, 0.555);
+}
+.section1 .home .print button{
+    background-attachment: rgba(255, 255, 255, 0);
+    width: 40%;
+    border: 1px solid black ;
+    margin-top: 20px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+}
+.section1 .home .print button:hover{
+background-color: aqua;
+}
+
+/* ================================================= start media ========================= =========== */
+@media(width:768px) {
+.section1{
+    height: 99vh;
+}
+.section1 .home .print {
+    width: 78%;
+    height: 30%;
+    margin-top: 19%;
+    margin-left: 8%;
+    position: absolute;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.section1 .home .print p {
+    font-size: 26px;
+    color: rgb(0 0 0 / 68%);
+}
+}
+@media (max-width:425px) {
+    .section1{
+        height: 99vh;
+    }
+    
+    .section1 .home .print {
+        width: 87%;
+        height: 30%;
+        margin-top: 57%;
+        margin-left: 7%;
+        position: absolute;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        /* font-size: 30px; */
+    }
+.section1 .home .print h1 {
+    padding: 30px 0px 10px 0px;
+    font-size: 28px;
+}
+.section1 .home .print p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.555);
+}
+.section1 .home .print button {
+    background-attachment: rgba(255, 255, 255, 0);
+    width: 73%;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+}
+/* end section 1 */
+
+/* ==================================================================================== Start section 2   ============================================================= */
+
+.section2{
+    margin-top: 10px;
+    width: 100%;
+    height: 70vh;
+ }
+.section2 .contanier{
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+.section2 .contanier .row {
+    width: 100%;
+    height: 100%;
+}
+.section2 .contanier .row .image img{
+    width: 100%;
+    height: 100%;
+}
+.section2 .contanier .row .icon{
+    width: 100%;
+    height: 100%;
+}
+.section2 .contanier .row .icon .row {
+    width: 100%;
+    height: 84%;
+}
+.section2 .contanier .row .icon .row .card{
+width: 100%;
+height: 22%;
+border:none;
+}
+
+
+
+.section2 .contanier .row .icon .row .no-gutters .icon1{
+    margin: auto;
+  
+    
+}
+.section2 .contanier .row .icon .row .no-gutters .icon1 img {
+    width: 70%;
+    padding-left: 27px;
+    margin-left: 7px;
+} 
+
+/* start media  */
+@media (max-width:768px) {
+    
+.section2 .contanier {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+.section2 .contanier .row{
+    width: 100%;
+margin: 0px;
+}
+.section2 .contanier .row .icon .row {
+    width: 100%;
+    height: 72%;
+}
+.section2 .contanier .row .icon .row .card {
+    width: 100%;
+    height: 30%;
+    border: none;
+}
+.section2 .contanier .row .icon .row .no-gutters .icon1 img {
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 7px;
+}
+.section2 .contanier .row .icon .row .card .no-gutters  .card-body .card-title{
+font-size: 20px;
+}
+.section2 .contanier .row .icon .row .card .no-gutters  .card-body .card-text{
+    font-size: 15px;
+}
+
+}
+@media (max-width:425px) {
+    .section2 {
+        margin-top: 10px;
+        width: 100%;
+     height: auto;
+    }
+    .section2 .contanier .row .icon {
+margin-top: 20px;
+    }
+    .section2 .contanier .row .icon .row {
+        width: 100%;
+        height: 72%;
+    }
+    .section2 .contanier .row .icon .row .no-gutters .icon1{ width: 21%;
+    position: absolute;
+    margin-top: 30px;
+}
+    
+.section2 .contanier .row .icon .row .card .no-gutters .card-body {
+    /* padding-left: 111px; */
+    width: 89%;
+    margin-left: 69px;
+}
+}
+/* ==================================================================================== End section 2   ============================================================= */
+/* ===================================== =========================  strta section 3 ==================================================================  */
+.section3{
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+}
+
+.section3 .print{
+    width: 100%;
+ height: 100%;
+    background-color: rgba(170, 210, 210, 0.53);
+
+}
+.section3 .print .row{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+
+}
+
+/* ========================== start media ==========================================*/
+@media(max-width:768px){
+    .section3 {
+        width: 100%;
+        height:auto;
+        margin-top: 20px;
+    }
+    .section3 .print {
+        width: 100%;
+        height: 66%;
+        background-color: #ffffff;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+}
+@media (max-width:425px) {
+    .section3 .print {
+        width: 100%;
+        height: 99%;
+        background-color: #ffffff;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    
+}
+/* ===================================== =========================  end section 3 ==================================================================  */
+/* =================================================================== start section 4  =================================================================*/
+.section4{
+    width: 100%;
+    height: 80vh;
+    background-color: blue;
+    margin-top: 20px;
+}
+.section4 .contianer{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+background-color: white;
+}
+.section4 .contianer .row{
+    width: 80%;
+    height: 80%;
+   margin: auto;
+}
+
+.section4 .contianer .row .mian{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section4 .contianer .row .chlid{
+    width: 100%;
+    height: 100%;
+}
+
+.section4 .contianer .row .mian .nav-pills{
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+}
+.section4 .contianer .row .chlid .tab-content{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.section4 .contianer .row .chlid .tab-content .fade{
+    width: 100%;height: 100%;
+}
+.section4 .contianer .row .chlid .tab-content .fade img{
+    width: 90%;
+    height: 100%;
+}
+/* =========================== start media ======================= */
+@media (max-width:768px) {
+    .section4 {
+        width: 100%;
+        height: auto;
+        margin-top: 39px;
+    }
+    .section4 .contianer {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .section4 .contianer .row {
+        width: 99%;
+        height: 100%;
+        margin: auto;
+    }
+    .section4 .contianer .row .mian .nav-pills {
+        padding-top: 100px;
+        width: 94%;
+        margin: auto;
+    }
+
+}
+/* =================================================================== End section 4  =================================================================*/
+
+/* ============================================================ start section 5 ==================================== */
+.section5
+{
+    width: 100%;
+    height: 75vh;
+}
+.section5 .home{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+ .section5 .home .carousel-inner{
+    width: 100%;
+    height:100%;
+ }
+ .section5 .home .carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%;
+ }
+ .section5 .home .carousel-inner .carousel-item .card-deck{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+
+ }
+ .section5 .home .carousel-inner .carousel-item .card-deck .card{
+    border: none;
+ }
+ .section5 .home .carousel-inner .carousel-item .card-deck .card-body{
+    padding: 0px;
+    height: 100%;
+ }
+ .testimonials{
+    background-color: rgb(153, 238, 238 ,0584);
+    height: 70%;
+    font-size: 26px;
+}
+@media (max-width:768px) {
+    .section5 {
+        width: 100%;
+        margin-top: 64px;
+    }
+   
+    .section5 .home .carousel-inner .carousel-item .card-deck {
+        width: 100%;
+        margin: auto;
+        height: 61%;
+    }
+    .testimonials {
+        background-color: rgb(153, 238, 238, 0584);
+        height: 59%;
+        font-size: 19px;
+    
+}}
+@media (max-width:425px) {
+    .section5 {
+        width: 100%;
+        margin-top: 64px;
+        height: auto;
+    }
+    
+}
+/* ====================================================================== END section 5 ==================================== */
+
+/* ===================================================================== start section 6 ===================================== */
+.section6{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(143, 193, 193);
+    margin-top: 10px;
+}
+.section6 .row{
+    width: 100%;
+height: 80%;
+} 
+.section6 .row .card-icon{
+  width: 80%;
+  height: 60%;
+}
+.section6 .row .card-icon .card{
+    width: 80%;
+margin: auto;
+    height: 100%;
+}
+.section6 .row .card-icon  .card img{
+width: 30%;
+margin: auto;
+}
+@media (max-width:768px) {
+    .section6 {
+        width: 100%;
+        background-color: rgb(143, 193, 193);
+        margin-top: 4px;
+    }
+    .section6 .row {
+        width: 100%;
+        margin: 0px;
+height: auto;
+    }
+    .section6 .row .card-icon .card {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+
+}
+@media (max-width:425px) {
+    .section6 {
+        width: 100%;
+        height: auto;
+        background-color: rgb(143, 193, 193);
+        margin-top: 4px;
+    }
+
+    .section6 .row .card-icon {
+            width: 50%;
+            height: 49%;
+
+            margin-bottom: 20px;
+        }
+}
+/* ===================================================================== end section 6 ===================================== */
+
+/*=========================================================  start section 7 ==============================================================*/
+.section7{    background-color: rgb(143, 193, 193);
+}
+
+.section7 .cotatiner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+  .section7 .cotatiner .nav{
+    justify-content: center;
+  }
+  .section7 .cotatiner .nav .nav-item{
+    background-color: #fff;
+    color: aqua;padding:10px 20px;
+  }
+  .section7 .cotatiner .nav .il1{
+    border-top-left-radius: 50px  ;
+border-bottom-left-radius: 50px;  
+}
+  .section7 .cotatiner .nav .il2{
+    border-top-right-radius: 50px  ;
+border-bottom-right-radius: 50px;  
+}
+.nav-pills .nav-link {
+  
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:rgb(75, 216, 216);
+   background-color: transparent;    
+}
+.section7 .row{
+    margin: 0px;
+}
+.section7 .row .printe{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.section7 .row .printe img{
+    width: 100%;height: 100%;
+}
+.section7 .row .printe::before{
+    content: "";
+ background-color: black;
+ position: absolute;
+ left: 30px;
+ top: 30px;
+  bottom: 30px;
+right: 30px;
+transition: all 1s;
+opacity: 0;
+}
+.section7 .row .printe:hover::before{
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    opacity: 1;
+    right: 0px;
+    background-color: #02020270;
+}
+.section7 .row .printe:hover::after{
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.section7 .row .printe .child{
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;right: 0px;bottom: 0px;left: 0px;
+    opacity:0;
+    transition: all 1S;
+    color: white;
+    padding-top: 100px;
+   
+
+}
+.section7 .row .printe .child a{
+    color: #ffffff;
+}
+.section7 .row .printe .child:hover{
+    opacity: 1;
+}
+.section7 .row .printe .child::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;left: 50px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    transition: all 1s;
+    opacity: 1;
+}
+.section7 .row .printe .child:hover:before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0px;left: 0px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    opacity: 1;
+}
+.section7 .row .printe .child::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right:50px;bottom:50px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    transition: all 1s;
+    opacity: 0;
+
+
+}
+.section7 .row .printe .child:hover:after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right:0px;bottom:0px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    opacity: 1;
+
+}
+/*=========================================================  end section 7 ==============================================================*/

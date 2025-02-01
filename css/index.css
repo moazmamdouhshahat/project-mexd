@@ -45,27 +45,11 @@
     background-image: url(..//img/hero-bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    animation-name: changeBackground;
-    animation-duration: 10s;
-    animation-iteration-count: infinite ;
 
 
 }
  
- @keyframes changeBackground {
-    20% {
-        background-image: url(../img/portfolio/portfolio-6.jpg);
-    }
 
-    50% {
-        background-image: url(/img/portfolio/portfolio-4.jpg);
-    }
-
-    75% {
-        background-image: url(../img/portfolio/portfolio-5.jpg);
-    }
-
-} 
 
 /* start print */
 .section1 .home .print{
